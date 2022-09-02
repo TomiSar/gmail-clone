@@ -1,0 +1,18 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  /* background-image: url('https://images7.alphacoders.com/949/949579.jpg'); */
+  background-color: white;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 200px;
+  border-radius: 80px;
+}
